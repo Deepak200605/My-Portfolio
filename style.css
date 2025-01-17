@@ -1,0 +1,118 @@
+@media (max-width: 1200px) {
+  div.work {
+      display: flex
+;
+      flex-direction: column;
+  }
+}
+
+.container-fluid {
+  list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #7BD3EA;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.gradient-background {
+  background: linear-gradient(-500deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
+  height: 60vh;
+}
+
+.container img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  padding: 20px 30px;
+}
+
+.primary-button {
+  background-color: white;
+  border-radius: 30px;
+  box-shadow: 2px 2px;
+  border: 3px solid;
+}
+
+.text-center {
+  text-align: center !important;
+}
+
+.whatido {
+  background-color: #fff6e7;
+  padding: 5%;
+}
+
+.fw-bold {
+  font-weight: 700 !important;
+}
+
+h3 {
+  font-size: 30px;
+}
+
+p {
+  font-size: 20px;
+}
+
+.box {
+  background-color: white;
+  border-radius: .75rem;
+  box-shadow: 5px 5px;
+  border: 3px solid;
+  color: black;
+  padding: 20px;
+}
+
+.showcase {
+  background-color: #a0d2eb;
+  background-size: 500% 500%;
+  padding: 5%;
+}
+
+.work {
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+}
+
+.work-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1.5rem;
+}
+
+.work img{
+  width: 300px;
+  height: 180px;
+  border: 6px dotted lightgray;
+  padding: 0.5rem;
+}
+
+.gradient {
+  background: linear-gradient(-500deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  background-size: 500% 500%;
+  animation: gradient 15s ease infinite;
+  display: flex;
+  flex-direction: column;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+
+footer {
+  padding: 0.5rem 0 0.5rem 0;
+  display: grid;
+  justify-content: center;
+  background-color: #3DC2EC;
+  color: white;
+  font-size: 1rem;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+}
+
